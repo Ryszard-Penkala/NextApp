@@ -1,11 +1,11 @@
-import {Navbar} from "./Navbar";
-import {Footer} from "./Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 type Props = {
     children: JSX.Element
 }
 
-export const Layout = ({ children }: Props) => {
+const Layout = ({ children }: Props) => {
     return(
         <div className="content">
             <Navbar />
@@ -14,3 +14,5 @@ export const Layout = ({ children }: Props) => {
         </div>
     )
 }
+
+export default Layout;

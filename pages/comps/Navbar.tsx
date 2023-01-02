@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <nav>
             <div className="logo">
@@ -14,3 +14,5 @@ export const Navbar = () => {
         </nav>
     );
 };
+
+export default Navbar;

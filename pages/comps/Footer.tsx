@@ -1,7 +1,9 @@
-export const Footer = () => {
+const Footer = () => {
     return(
         <footer>
-            People List
+            Basic People List created with Next & Typescript.
         </footer>
     )
 }
+
+export default Footer;
