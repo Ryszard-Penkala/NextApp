@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
         <footer>
-            Basic People List created with Next & Typescript.
+            People List created with Next & Typescript.
         </footer>
     )
 }
